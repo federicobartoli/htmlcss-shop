@@ -52,8 +52,16 @@
     color: #e2264d;
 }
 
+main {
+    height: 250px;
+    width: 250px;
+    display: none;
+}
+
+
 label {
     position: absolute;
+    display: none;
     left: 125px;
     bottom: 0;
     color: #aab8c2;
@@ -105,4 +113,8 @@ label {
 
 #heartsclick6:checked + label{
     color: #e2264d;
+}
+
+.quadrato:hover label{
+    display: block;
 }
