@@ -50,6 +50,7 @@
 
 #heartsclick:checked + label{
     color: #e2264d;
+    display: block;
 }
 
 main {
@@ -76,6 +77,7 @@ label {
 
 #heartsclick2:checked + label{
     color: #e2264d;
+    display: block;
 }
 
 
@@ -86,6 +88,7 @@ label {
 
 #heartsclick3:checked + label{
     color: #e2264d;
+    display: block;
 }
 
 #heartsclick4 {
@@ -95,6 +98,7 @@ label {
 
 #heartsclick4:checked + label{
     color: #e2264d;
+    display: block;
 }
 
 #heartsclick5 {
@@ -104,6 +108,7 @@ label {
 
 #heartsclick5:checked + label{
     color: #e2264d;
+    display: block;
 }
 
 #heartsclick6 {
@@ -113,6 +118,7 @@ label {
 
 #heartsclick6:checked + label{
     color: #e2264d;
+    display: block;
 }
 
 .quadrato:hover label{
