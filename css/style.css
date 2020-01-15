@@ -1,19 +1,31 @@
 * {
     box-sizing: border-box;
+
 }
 
 .container {
-    height: 250px;
-    width: 750px;
+    width: 770px;
     border: 1px solid green;
     margin-bottom: 10px;
-
+    position: relative;
 }
 
 .quadrato {
     height: 250px;
     width: 250px;
     background-color: lightgrey;
-    display: inline-block;
-    position: relative;
+}
+
+#center {
+    position: absolute;
+    top: 0;
+    left: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#left {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
