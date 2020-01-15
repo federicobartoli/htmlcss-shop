@@ -42,7 +42,68 @@
     background-color: red;
 }
 
-#heartsclick {
-    position: absolute;
 
+#heartsclick{
+    position: absolute;
+    display: none;
+}
+
+#heartsclick:checked + label{
+    color: #e2264d;
+}
+
+label {
+    position: absolute;
+    display: none;
+    left: 125px;
+    bottom: 0;
+    color: #aab8c2;
+    cursor: pointer;
+}
+
+
+#heartsclick2 {
+    position: absolute;
+    display: none;
+}
+
+#heartsclick2:checked + label{
+    color: #e2264d;
+}
+
+
+#heartsclick3 {
+    position: absolute;
+    display: none;
+}
+
+#heartsclick3:checked + label{
+    color: #e2264d;
+}
+
+#heartsclick4 {
+    position: absolute;
+    display: none;
+}
+
+#heartsclick4:checked + label{
+    color: #e2264d;
+}
+
+#heartsclick5 {
+    position: absolute;
+    display: none;
+}
+
+#heartsclick5:checked + label{
+    color: #e2264d;
+}
+
+#heartsclick6 {
+    position: absolute;
+    display: none;
+}
+
+#heartsclick6:checked + label{
+    color: #e2264d;
 }
